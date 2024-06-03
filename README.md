@@ -1,4 +1,4 @@
-## Incorporating uncertainty in Model Predictive Control for the optimal operation of a microgrid
+# Incorporating uncertainty in Model Predictive Control for the optimal operation of a microgrid
 
 This repository contains an implementation of two Model Predictive Control methods for energy management of an islanded microgrid, optimized to minimize unmet demand over the year:
 - **Direct MPC**: optimization over a limited time horizon (one week) with error on weather forecasts.
@@ -8,11 +8,11 @@ Different types of error in the weather forecast are tested to analyze how they 
 
 **Acknowledgments:** The initial model was adapted from a passive model for the microgrid developed by Fred Fan (CEE, Stanford University)
 
-# Operating the repository
+### Operating the repository
 
 A Julia environment is needed, containing the following packages: JuMP, CSV, DataFrames, PlotlyJS, Dates, XLSX, FileIO, Base, Random, Statistics, Gurobi, PyCall.
 
-# Description of functions
+### Description of functions
 
 - Main.jl contains the main implementation.
 - MPCAlgorithms.jl contains the implementation of the two methods.
