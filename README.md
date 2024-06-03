@@ -4,7 +4,7 @@ This repository contains an implementation of two Model Predictive Control metho
 - **Direct MPC**: optimization over a limited time horizon (one week) with error on weather forecasts.
 - **Smooth MPC**: adaptive optimization similar to the Direct MPC, which penalizes deviations from previous actions to improve robustness against forecast errors.
 
-Different types of error in the weather forecast are tested to analyze how they impact the optimization. The model uses the Gurobi solver.
+Different types of error in the weather forecast are tested to analyze how they impact the optimization. Weather data was extracted from the NSRDB data base (https://doi.org/10.1016/j.rser.2018.03.003). The model uses the Gurobi solver.
 
 **Acknowledgments:** The initial model was adapted from a passive model for the microgrid developed by Fred Fan (CEE, Stanford University)
 
