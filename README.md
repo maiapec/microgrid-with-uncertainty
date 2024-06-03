@@ -1,11 +1,12 @@
 ## Incorporating uncertainty in Model Predictive Control for the optimal operation of a microgrid
 
 This repository contains an implementation of two Model Predictive Control methods for energy management of an islanded microgrid, optimized to minimize unmet demand over the year:
-- Direct MPC: optimization over a limited time horizon (one week) with error on weather forecasts.
-- Smooth MPC: adaptive optimization similar to the Direct MPC, which penalizes deviations from previous actions to improve robustness against forecast errors.
+- **Direct MPC**: optimization over a limited time horizon (one week) with error on weather forecasts.
+- **Smooth MPC**: adaptive optimization similar to the Direct MPC, which penalizes deviations from previous actions to improve robustness against forecast errors.
+
 Different types of error in the weather forecast are tested to analyze how they impact the optimization. The model uses the Gurobi solver.
 
-Acknowledgments: The initial model was adapted from a passive model for the microgrid developed by Fred Fan (CEE, Stanford University)
+**Acknowledgments:** The initial model was adapted from a passive model for the microgrid developed by Fred Fan (CEE, Stanford University)
 
 # Operating the repository
 
