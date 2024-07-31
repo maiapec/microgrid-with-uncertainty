@@ -22,4 +22,6 @@ A Julia environment is needed, containing the following packages: JuMP, CSV, Dat
 - MPCValidation.jl runs different scenarios for the algorithms implemented, over chosen years.
 - PassiveModel.jl contains the model describing how weather parameters translate to energy transfers for the microgrid structure.
 - PlotResults.jl contains a script to plot results for the cumulative loss of load time series.
-- Util.jl contains several basic functions used across the previous files. 
+- Util.jl contains several basic functions used across the previous files.
+
+**Authors:** Andreas Mühlbauer and Maia Pecastaings (CEE, Stanford University)
